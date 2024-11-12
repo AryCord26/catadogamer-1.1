@@ -1,0 +1,87 @@
+body {
+    background-color: #666;
+}
+
+.sidebar {
+    background-color: #464646;
+    color: white;
+    padding: 15px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+.main-content {
+    margin-left: 220px;
+}
+
+.header-layer {
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.title {
+    color: white;
+    margin: 0;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 5px;
+}
+
+.user-info img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.game-section {
+    margin: 20px 0;
+}
+
+.game-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.review-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.player-reviews, .events {
+    background-color: #464646;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.review-card, .event-card {
+    background-color: #707070;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.event-card {
+    text-align: center;
+}

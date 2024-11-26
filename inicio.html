@@ -6,6 +6,7 @@
     <title>Catado Gamer</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </head>
 <body>
     <div class="sidebar">
@@ -90,25 +91,9 @@
 
             <div class="events">
                 <h3>Eventos</h3>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="event-card">
-                            <h4>Evento Gamer</h4>
-                            <p>A definir</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="event-card">
-                            <h4>Promoção do dia</h4>
-                            <p>HOJE</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="event-card">
-                            <h4>Jogo Novo</h4>
-                            <p>Epic Games</p>
-                        </div>
-                    </div>
+                <div id="map" style="height: 400px; width: 100%;"></div>
+                <div id="event-list">
+                    <!-- Lista de eventos será populada aqui -->
                 </div>
             </div>
         </div>
@@ -117,5 +102,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
